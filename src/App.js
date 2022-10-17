@@ -1,10 +1,10 @@
 import './App.css';
-import AppRouter from "./navigation/AppRouter";
+import JsonPlaceHolderView from '../src/features/JsonPlaceHolder/JsonPlaceHolderView'
 
 const App = () => {
     return (
         <div>
-            <AppRouter/>
+            <JsonPlaceHolderView/>
         </div>
     );
 }
